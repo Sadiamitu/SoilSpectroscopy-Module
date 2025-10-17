@@ -84,22 +84,4 @@ Students completing the exercise will:
 - Viscarra Rossel, R. A. et al. (2006). *Visible, near infrared, mid infrared or combined diffuse reflectance spectroscopy for simultaneous assessment of various soil properties.* **Geoderma, 131**, 59–75.
 - Mitu, S. et al. (2024). *Deep learning and calibration transfer for soil spectroscopy.* (In preparation).
 
----
 
-## 🧭 Suggested Directory Structure
-```
-AI_in_Soil_Spectroscopy_Teaching_Module/
-├── Lecture1-basic_reduced.pptx
-├── MIR_spectra.csv
-├── hands_on_exercise_instructor.ipynb
-├── hands_on_exercise_student.ipynb
-├── hands_on_exercise_instructor.html
-├── hands_on_exercise_instructor.md
-├── Instructor_Guide.pdf
-└── README.md
-```
-
----
-
-**Contact:** smitu2@huskers.unl.edu  
-**License:** Educational use only (UNL teaching module, 2025)
