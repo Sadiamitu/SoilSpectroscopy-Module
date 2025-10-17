@@ -1,1 +1,6 @@
+title: Soil Spectroscopy Module
+description: Hands-on tutorial for MIR spectral preprocessing, PCA, and soil property modeling
+theme: jekyll-theme-cayman
+markdown: kramdown
+show_downloads: false
 
