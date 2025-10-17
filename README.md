@@ -6,22 +6,24 @@
 ---
 
 ## 📘 Overview
-This teaching module introduces graduate students to the principles and applications of **machine learning and AI for soil spectroscopy analysis**. The session blends theoretical understanding of soil spectral sensing with practical, hands-on modeling using **Python**.
+This teaching module introduces graduate students to the fundamentals of soil spectroscopy and its integration with machine learning techniques for soil property prediction. The goal is to develop a clear understanding of how soil spectral data are structured, how Partial Least Squares Regression (PLSR) and Multilayer Perceptron (MLP) models operate, and how these methods can be used to model and interpret soil properties from spectral measurements.
 
-The materials are designed for an audience with **diverse academic backgrounds** — including soil science, agronomy, data science, and engineering. The goal is to help all participants develop a working understanding of how soil reflectance spectra can be analyzed using modern AI tools.
+Through step-by-step exercises, students will preprocess mid-infrared (MIR) spectra, apply dimensionality reduction, build PLSR and MLP models, and compare their predictive performance using quantitative metrics.
 
 ---
 
 ## 🎯 Learning Objectives
 By the end of this module, students will be able to:
 
-| Bloom Level | Objective |
-|--------------|------------|
-| **Understand** | Explain the physical basis and interpretation of soil spectra (VIS–NIR–MIR). |
-| **Apply** | Preprocess spectra using SNV and Savitzky–Golay filters. |
-| **Analyze** | Build and evaluate PLSR and deep learning models to predict soil properties. |
-| **Evaluate** | Compare performance (R², RMSE, RPD) between linear and nonlinear models. |
-| **Create** | Design improved soil spectral modeling workflows. |
+- Explain the fundamental principles of soil spectroscopy and how spectral data relate to soil properties.
+
+- Apply preprocessing techniques such as Standard Normal Variate (SNV) and Savitzky–Golay filtering to improve spectral quality.
+
+- Develop and evaluate predictive models using Partial Least Squares Regression (PLSR) and Multilayer Perceptron (MLP) approaches.
+
+- Compare the performance of linear and nonlinear models using metrics such as R², RMSE, and Bias.
+
+- Interpret model outputs to understand the relationship between spectral features and soil attributes.
 
 ---
 
@@ -29,12 +31,11 @@ By the end of this module, students will be able to:
 
 | File | Description |
 |------|--------------|
-| `Lecture1-basic_reduced.pptx` | 30-min lecture covering spectroscopy principles and ML overview. |
+| `Lecture-Introduction to Soil Spectral Modeling.pptx` | 30-min lecture covering spectroscopy principles and ML overview. |
 | `MIR_spectra.csv` | Subset of MIR soil spectra (500+ samples; USDA-KSSL). |
 | `hands_on_exercise_instructor.ipynb` | Full instructor notebook with solutions and commentary. |
 | `hands_on_exercise_student.ipynb` | Guided student notebook with TODO sections for practice. |
 | `hands_on_exercise_instructor.html` / `.md` | Rendered versions for quick viewing or offline reference. |
-| `Instructor_Guide.pdf` | (Optional) Teaching notes: flow, timing, key discussion prompts. |
 
 ---
 
@@ -64,9 +65,9 @@ Or in Google Colab:
 ---
 
 ## 💡 Homework / Reflection Questions
-1. Why might deep learning outperform PLSR for certain soil properties?
-2. How can calibration transfer improve model performance across spectrometers?
-3. What preprocessing strategies could help in low-data or noisy conditions?
+1. Why might a Multilayer Perceptron (MLP) outperform PLSR for certain soil properties?
+2. How does spectral preprocessing (e.g., SNV, Savitzky–Golay) influence model accuracy and stability?
+3. What are the main trade-offs between interpretability and predictive performance when comparing PLSR and MLP models?
 
 ---
 
