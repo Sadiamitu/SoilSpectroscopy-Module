@@ -56,7 +56,7 @@ df = pd.read_csv("MIR_spectra.csv")
 
 ### **2.2 Tabular Operations**
 
-Identify spectral columns by their numeric names:
+Identify spectral columns by their numeric names.
 
 ```python
 def is_wl(c):
