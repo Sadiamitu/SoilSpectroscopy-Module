@@ -1,9 +1,7 @@
-# AI in Soil Spectroscopy — Teaching Module
+# Introduction to Soil Spectral Modeling
 
 **Author:** Sadia Mitu  
 **University of Nebraska–Lincoln**  
-**Course:** AI in Agriculture (Graduate Level)  
-**Module Duration:** 1.5 hours total (Lecture 0.5 hr + Hands-on 1 hr)
 
 ---
 
