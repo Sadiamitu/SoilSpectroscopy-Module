@@ -78,10 +78,6 @@ Students completing the exercise will:
 - Interpret the link between spectral features and soil properties.
 - Appreciate the balance between model complexity, interpretability, and robustness.
 
----
 
-## 📚 References
-- Viscarra Rossel, R. A. et al. (2006). *Visible, near infrared, mid infrared or combined diffuse reflectance spectroscopy for simultaneous assessment of various soil properties.* **Geoderma, 131**, 59–75.
-- Mitu, S. et al. (2024). *Deep learning and calibration transfer for soil spectroscopy.* (In preparation).
 
 
